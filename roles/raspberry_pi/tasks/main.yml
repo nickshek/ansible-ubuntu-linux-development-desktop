@@ -1,0 +1,11 @@
+---
+
+- name: Install list of packages
+  apt:
+   name: "{{item}}"
+   state: installed
+  with_items:
+       - xbacklight
+
+- name: Set blacklight
+  command: xbacklight -set 50
