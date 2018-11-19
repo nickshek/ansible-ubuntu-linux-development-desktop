@@ -1,2 +1,4 @@
  - src: geerlingguy.swap
    version: 1.0.0
+ - src: geerlingguy.ntp
+   version: 1.6.2
