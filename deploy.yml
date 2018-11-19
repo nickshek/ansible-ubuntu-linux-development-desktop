@@ -1,7 +1,6 @@
 ---
-- name: Deploy Kail Desktop ENVIRONMENT
-  hosts: development
-  gather_facts: false
+- name: Deploy ubuntu desktop Environment
+  hosts: local
   roles:
     - role: geerlingguy.swap
       swap_file_size_mb: '4096'
@@ -9,9 +8,5 @@
     - role: geerlingguy.ntp
       ntp_timezone: Asia/Hong_Kong
       become: yes
-    # - role: raspberry_pi
-    #   become: yes
-    #   when:
-    #     - raspberry_pi_with_lcd
   vars:
-    ENV: development
+    ENV: local

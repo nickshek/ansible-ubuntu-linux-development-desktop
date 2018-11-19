@@ -22,6 +22,6 @@ fi
 
 export PATH="$CONDA_ENV:$PATH"
 
-source activate kail-desktop
+source activate desktop
 
 cd $SCRIPTPATH/../ && ansible-galaxy install -r requirements.yml

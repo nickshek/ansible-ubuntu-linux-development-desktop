@@ -22,6 +22,6 @@ fi
 
 export PATH="$CONDA_ENV:$PATH"
 
-source activate kail-desktop
+source activate desktop
 
 conda env export | grep -v "^prefix: " > $SCRIPTPATH/environment.yml

@@ -166,7 +166,7 @@ fi
 
 export PATH="$CONDA_ENV:$PATH"
 
-source activate kail-desktop
+source activate desktop
 
 # Setup db first. After thatm setup web application
 ENVIRONMENTS="development"

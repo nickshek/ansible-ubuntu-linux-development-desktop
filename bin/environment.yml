@@ -1,4 +1,4 @@
-name: kail-desktop
+name: desktop
 channels:
   - defaults
 dependencies:
