@@ -169,7 +169,7 @@ export PATH="$CONDA_ENV:$PATH"
 source activate desktop
 
 # Setup db first. After thatm setup web application
-ENVIRONMENTS="development"
+ENVIRONMENTS="local"
 TAGS=""
 ASK_PASS=" --ask-pass "
 START_AT_TASK=""
