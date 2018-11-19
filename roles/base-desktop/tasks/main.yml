@@ -5,7 +5,6 @@
    name: "{{item}}"
    state: installed
   with_items:
-       - xbacklight
+       - git
+       - build-essential
 
-- name: Set blacklight
-  command: xbacklight -set 50

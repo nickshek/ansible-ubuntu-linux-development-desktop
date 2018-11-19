@@ -8,5 +8,7 @@
     - role: geerlingguy.ntp
       ntp_timezone: Asia/Hong_Kong
       become: yes
+    - role: base-desktop
+      become: yes
   vars:
     ENV: local
