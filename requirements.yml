@@ -2,3 +2,5 @@
    version: 1.0.0
  - src: geerlingguy.ntp
    version: 1.6.2
+ - src: andrewrothstein.atom
+   version: v1.2.1
