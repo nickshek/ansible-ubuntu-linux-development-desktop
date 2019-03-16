@@ -10,3 +10,5 @@
    version: master
  - src: ucsdlib.libreoffice
    version: 1.1.0
+ - src: avanov.pyenv
+   version: b71c95c9fe2d9faa46cac4b76e9eb2d646a3947a
