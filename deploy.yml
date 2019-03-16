@@ -11,5 +11,6 @@
     - role: andrewrothstein.atom
     - role: base-desktop
       become: yes
+    - role: avanov.pyenv
   vars:
     ENV: local
