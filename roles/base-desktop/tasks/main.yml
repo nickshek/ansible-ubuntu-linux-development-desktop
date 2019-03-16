@@ -1,5 +1,4 @@
 ---
-
 - name: Install list of packages
   apt:
    name: "{{item}}"
@@ -7,4 +6,5 @@
   with_items:
        - git
        - build-essential
-
+       - fcitx-table-cangjie3
+       - preload
