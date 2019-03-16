@@ -213,6 +213,10 @@ while [ "$1" != "" ]; do
     shift
 done
 
+if [[ $ENVIRONMENTS == "local" ]]; then
+  ASK_PASS=""
+fi
+
 if [[ -z $TAGS ]] ; then
   for ENVIRONMENT in $ENVIRONMENTS
   do
