@@ -8,7 +8,7 @@
     - role: geerlingguy.ntp
       ntp_timezone: Asia/Hong_Kong
       become: yes
-    - role: andrewrothstein.atom
+#    - role: andrewrothstein.atom
     - role: base-desktop
       become: yes
     - role: avanov.pyenv
