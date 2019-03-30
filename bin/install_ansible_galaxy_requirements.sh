@@ -17,7 +17,7 @@ SCRIPT=$(realpath "$0")
 SCRIPTPATH=$(dirname "$SCRIPT")
 
 if [ -z "$CONDA_ENV" ]; then
-  CONDA_ENV="/home/nickshek/miniconda2/bin/"
+  CONDA_ENV="~/miniconda2/bin/:~/miniconda3/bin/"
 fi
 
 export PATH="$CONDA_ENV:$PATH"
