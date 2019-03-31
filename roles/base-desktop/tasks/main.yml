@@ -8,6 +8,7 @@
        - build-essential
        - fcitx-table-cangjie3
        - preload
+       - gimp
 
 - name: install chrome
   include: chrome.yml
