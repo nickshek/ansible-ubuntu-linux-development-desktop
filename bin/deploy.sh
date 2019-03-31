@@ -160,7 +160,7 @@ realpath() {
 SCRIPT=$(realpath "$0")
 SCRIPTPATH=$(dirname "$SCRIPT")
 
-CONDA_DIR="~/miniconda2/bin/"
+CONDA_DIR="/home/$USER/miniconda2/bin/"
 
 if [ ! -d "$CONDA_DIR" ]; then
   echo "Conda is not installed! Please visit https://docs.conda.io/en/latest/miniconda.html to install miniconda2."

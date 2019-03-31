@@ -8,3 +8,6 @@
        - build-essential
        - fcitx-table-cangjie3
        - preload
+
+- name: install chrome
+  include: chrome.yml
