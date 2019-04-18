@@ -9,6 +9,7 @@
        - fcitx-table-cangjie3
        - preload
        - gimp
+       - openssh-server
 
 - name: install chrome
   include: chrome.yml
