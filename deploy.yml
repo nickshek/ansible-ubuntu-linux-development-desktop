@@ -12,5 +12,10 @@
     - role: base-desktop
       become: yes
     - role: avanov.pyenv
+    - role: moviedo.nvm
+      become: yes
+      nvm_user: nickshek
+      nvm_version: "v0.34.0"
+      nvm_node_version: "10.15.3"
   vars:
     ENV: local
